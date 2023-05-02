@@ -1,0 +1,24 @@
+h1.title {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-status {
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5em;
+    
+}
+
+.game-status .image-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

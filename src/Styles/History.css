@@ -1,0 +1,54 @@
+.history-setting {
+   width: max-content;
+   margin: auto;
+}
+
+.history-options {
+    width: 100vw;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-button, .play-again-button {
+    width: 48vw;
+    max-width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+    background: #efefef;
+    color: #000000;
+    box-shadow: 0 0 0 3px #efefef inset;
+}
+
+.history-button:hover:not(:disabled), .play-again-button:hover {
+    transform: translateY(-2px);
+}
+
+.history-button:active {
+    background-color: gray;
+}
+
+.history-button:disabled {
+    background: #efefef;
+    color: gray;
+    box-shadow: 0 0 0 3px #efefef inset;
+    cursor: inherit;
+}
+
+.play-again-button {
+    width: 100vw;
+    max-width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 0 3px #efef00 inset;
+}
